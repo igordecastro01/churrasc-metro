@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Default HTML-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning JavaScript</title>
+    <!-- Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Links -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1 id="title">Churrascômetro</h1>
+      <div id="inputs">
+        <input id="input1" type="number" placeholder="Adultos" />
+        <input id="input2" type="number" placeholder="Crianças" />
+        <input id="input3" type="number" placeholder="Duração (horas)" />
+      </div>
+      <button onclick="calc()" class="button">Calcular</button>
+
+      <div id="resultado"></div>
+    </main>
+
+    <!-- Link with JavaScript File -->
+    <script src="/script.js"></script>
+  </body>
+</html>
